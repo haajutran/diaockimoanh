@@ -1,0 +1,50 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #6d6c6c;
+  font-size: 14px;
+}
+.main-body {
+  padding: 2em;
+}
+.contain {
+  padding: 0 1em;
+}
+.nav-top .nav-item {
+  padding: 0 1em;
+}
+.nav-top .nav-link {
+  text-transform: uppercase;
+  color: #6d6c6c;
+  font-size: 14px;
+  font-weight: 500;
+}
+.nav-top .nav-link:hover {
+  color: #f58220;
+}
+
+.navbar-brand img {
+  width: 200px;
+}
+
+.carousel-inner .carousel-item img {
+  width: 100%;
+}
+
+.about-company {
+  padding-top: 2em;
+}
+
+.about-company .info {
+  color: #f58220;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-company .info h3 {
+  font-weight: 900;
+}
+
+footer {
+    padding: 2em;
+    background: url(http://kimthanhphumyhung.com/wp-content/uploads/2015/10/design-pattern-background.jpg) center center repeat;
+}
