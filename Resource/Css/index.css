@@ -1,6 +1,6 @@
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #6d6c6c;
+  font-family: "Roboto", sans-serif !important;
+  color: #222533;
   font-size: 14px;
 }
 .main-body {
@@ -9,14 +9,84 @@ body {
 .contain {
   padding: 0 1em;
 }
-.nav-top .nav-item {
-  padding: 0 1em;
+/*  */
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.overlay-black {
+  background: rgba(8, 8, 8, 0.4);
+  color: white;
+}
+.wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+/*  */
+
+.text-block {
+  position: absolute;
+  color: white;
+}
+
+.name {
+  color: #ffce55;
+  font-weight: bold;
+}
+.line {
+  padding-top: 1em;
+  margin: auto;
+  width: 80px;
+  border-bottom: 2px solid #ffce55;
+}
+
+.about {
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+.contact-button {
+  margin-top: 2em;
+  text-transform: uppercase;
+  background: 0%;
+  color: white;
+  border: white 2px solid;
+  padding: 0.5em 1em;
+  font-size: 25px;
+  border-radius: 100px;
+}
+.contact-button:hover {
+  color: #ffce55;
+  border: #ffce55 2px solid;
+}
+/*  */
+.nav-top {
+  height: 80px;
+}
+.nav-top .navbar-nav {
+  margin: unset !important;
+  right: 50px;
 }
 .nav-top .nav-link {
   text-transform: uppercase;
-  color: #6d6c6c;
-  font-size: 14px;
-  font-weight: 500;
+  color: #222533;
+  font-weight: 600;
+  font-size: 12px;
 }
 .nav-top .nav-link:hover {
   color: #f58220;
@@ -45,6 +115,7 @@ body {
 }
 
 footer {
-    padding: 2em;
-    background: url(http://kimthanhphumyhung.com/wp-content/uploads/2015/10/design-pattern-background.jpg) center center repeat;
+  padding: 2em;
+  background: url(http://kimthanhphumyhung.com/wp-content/uploads/2015/10/design-pattern-background.jpg)
+    center center repeat;
 }
