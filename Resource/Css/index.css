@@ -126,6 +126,7 @@ body {
 
 .area .card {
   border: unset;
+  height: 250px;
 }
 
 .card-info .card-title {
