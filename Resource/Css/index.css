@@ -3,12 +3,15 @@ body {
   color: #222533;
   font-size: 14px;
 }
+
 .main-body {
   padding: 2em;
 }
+
 .contain {
   padding: 0 1em;
 }
+
 /*  */
 
 .wrapper {
@@ -32,9 +35,10 @@ body {
   background: rgba(8, 8, 8, 0.4);
   color: white;
 }
+
 .wrapper img {
   width: 100%;
-  height: 100%;  
+  height: 100%;
 }
 
 /*  */
@@ -48,6 +52,7 @@ body {
   color: #ffce55;
   font-weight: bold;
 }
+
 .line {
   padding-top: 1em;
   margin: auto;
@@ -69,24 +74,30 @@ body {
   font-size: 25px;
   border-radius: 100px;
 }
+
 .contact-button:hover {
   color: #ffce55;
   border: #ffce55 2px solid;
 }
+
 /*  */
+
 .nav-top {
   height: 80px;
 }
+
 .nav-top .navbar-nav {
   margin: unset !important;
   right: 50px;
 }
+
 .nav-top .nav-link {
   text-transform: uppercase;
   color: #222533;
   font-weight: 600;
   font-size: 12px;
 }
+
 .nav-top .nav-link:hover {
   color: #f58220;
 }
@@ -99,28 +110,77 @@ body {
   width: 100%;
 }
 
-.about-company {
-  padding-top: 4em;
-}
-.about-company p {
+.card-info p {
   word-spacing: 1px;
   line-height: 1.8;
 }
 
-.card-info .col {
+.area {
+  margin-top: 4em;
+  padding: 4em 0;
+}
+
+.area .col {
   padding: 0;
 }
 
-.card-info .card {
+.area .card {
   border: unset;
-  min-height: 250px;
 }
+
 .card-info .card-title {
   padding: 1em 0;
 }
 
+.project-card .card {
+  position: relative;
+  width: 200px;
+  height: 380px;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+.project-card .card:hover {
+  color: white;
+  background: rgba(8, 8, 8, 0.4);
+}
+
+.project-card .card .card-text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.side-crop {
+  width: 375px;
+  overflow: hidden;
+  height: 300px;
+}
+
+.side-crop img {
+  display: block;
+  height: 100%;
+}
+
+
+
+
+/* .project-card .card-img-top {
+  max-height: 300px;
+  width: 100%;
+}
+
+.project-card .card-img-top {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} */
+
 footer {
   padding: 2em;
-  background: url(http://kimthanhphumyhung.com/wp-content/uploads/2015/10/design-pattern-background.jpg)
-    center center repeat;
+  background: url(http://kimthanhphumyhung.com/wp-content/uploads/2015/10/design-pattern-background.jpg) center center repeat;
 }
