@@ -80,25 +80,66 @@
     </div>
     <div class="wrapper">
         <div class="overlay overlay-black">
-            <div class="text-block">                   
+            <div class="text-block">
                 <h2 class="name">KIM OANH</h2>
                 <div class="line"></div>
-                <h1 class="about">TRANG THÔNG TIN CÁC DỰ ÁN BẤT ĐỘNG SẢN</h1>
+                <h1 class="about font-weight-bold">TRANG THÔNG TIN CÁC DỰ ÁN BẤT ĐỘNG SẢN</h1>
                 <button class="btn contact-button">Liên hệ</button>
             </div>
         </div>
         <img src="Resource/Images/b.CS125_UDIA_Hebel_Screens-3841x2160px-1.jpg" alt="testpic">
     </div>
 
-    <div class="main-body">
-
-     
+    <div class="about-company">
+        <div class="container text-center wow bounceInUp">
+            <h3>GIỚI THIỆU VỀ CÔNG TY</h3>
+            <div class="line"></div>
+            <div class="about">
+                <p>Sản phẩm thật – Giá trị thật</p>
+            </div>
+            <div class="about">
+                <p>Sau hơn sáu năm chính thức thành lập, đến nay Công ty cổ phần Dịch vụ Thương mại và Xây dựng Địa ốc Kim Oanh
+                    đã đạt được một bước tiến dài trong hành trình khẳng định thương hiệu trên thị trường bất động sản. Từ
+                    vài nhân viên ban đầu, hiện nay Kim Oanh đã phát triển thành hệ thống gồm sáu chi nhánh tại Bình Dương,
+                    TPHCM và Đồng Nai với đội ngũ gần 600 nhân viên được đào tạo bài bản, am hiểu thị trường bất động sản.
+                </p>
+            </div>
+            <div class="card-info">
+                <div class="row">
+                    <div class="col col-md-4 col-sm-12">
+                        <div class="card wow bounceInDown" id="1" data-wow-duration="2s" style="width: 100%;background: #313233;">
+                            <div class="card-body" style="color: white">
+                                <img src="http://diaoc-kimoanh.com/wp-content/uploads/2017/12/favorites-button-2.png">
+                                <h5 class="card-title">GIÁ TỐT NHẤT</h5>
+                                <p>Chủ đầu tư uy tín, nhiều tiện ích với giá bán tốt nhất</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-4 col-sm-12">
+                        <div class="card wow bounceInUp" id="2" data-wow-duration="2s" style="width: 100%; background: whitesmoke">
+                            <div class="card-body" style="color: #313233">
+                                <img src="Resource/Images/compass-1.png">
+                                <h5 class="card-title">ĐANG BÀN GIAO</h5>
+                                <p>Dự án của KIM OANH bàn giao bắt đầu tháng 8 năm 2017</p>                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-4 col-sm-12">
+                        <div class="card wow bounceInDown" id="3" data-wow-duration="2s" style="width: 100%; background: #313233;">
+                            <div class="card-body" style="color: white">
+                                <img src="http://diaoc-kimoanh.com/wp-content/uploads/2017/12/24-hours.png">
+                                <h5 class="card-title" style="color: white">PHỤC VỤ 24/7</h5>
+                                <p>Nhanh chóng – Tận nơi – Dịch vụ chuyên nghiệp</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-
 </body>
 
-<footer>
+<footer style="margin-top: 2em">
     <div class="container">
         <div class="wow bounceInUp">
             Content to Reveal Here
@@ -112,7 +153,8 @@
                     <span class="font-weight-bold">Hotline: </span>
                     <span class="font-weight-bold" style="color: #f58220">0935.13.0123</span>
                 </p>
-                <p><span class="font-weight-bold">Email: </span>bondx6868@gmail.com</p>
+                <p>
+                    <span class="font-weight-bold">Email: </span>bondx6868@gmail.com</p>
             </div>
             <div class="col-4">
             </div>
@@ -129,6 +171,18 @@
 <script src="Resource/Javascript/wow.js"></script>
 <script>
     new WOW().init();
+</script>
+
+<script>
+    if ($(window).width() < 768) {
+        $("#1").removeClass("bounceInDown").addClass("bounceInRight");
+        $("#2").removeClass("bounceInUp").addClass("bounceInLeft");
+        $("#3").removeClass("bounceInDown").addClass("bounceInRight");
+    } else {
+        $("#1").removeClass("bounceInRight").addClass("bounceInDown");
+        $("#2").removeClass("bounceInLeft").addClass("bounceInUp");
+        $("#3").removeClass("bounceInRight").addClass("bounceInDown");
+    }
 </script>
 
 </html>
